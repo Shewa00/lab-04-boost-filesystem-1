@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
             out << "\n\tOverall:\n";
             if (!Brokers.empty()) {
                 std::for_each(Brokers.begin(), Brokers.end(),
-                              [](auto &i) {
+                              [](const auto &i) {
                                   for (const auto &j : i.second)
                                       out << "broker: " << i.first << " account: " << j.first << " files: "
                                           << j.second.second << " lastdate: " << j.second.first << std::endl;
