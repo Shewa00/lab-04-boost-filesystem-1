@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\panda\CLionProjects\lab-04-boost-filesystem
+CMAKE_SOURCE_DIR = D:\cprojects\lab-04-boost-filesystem
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug
+CMAKE_BINARY_DIR = D:\cprojects\lab-04-boost-filesystem\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lab-04-boost-filesystem.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lab-04-boost-filesystem.dir/flags.make
 CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj: CMakeFiles/lab-04-boost-filesystem.dir/flags.make
 CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj: CMakeFiles/lab-04-boost-filesystem.dir/includes_CXX.rsp
 CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj: ../sources/source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.obj -c C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cprojects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj"
+	C:\Users\panda\mingw\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.obj -c D:\cprojects\lab-04-boost-filesystem\sources\source.cpp
 
 CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.i"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp > CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.i
+	C:\Users\panda\mingw\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cprojects\lab-04-boost-filesystem\sources\source.cpp > CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.i
 
 CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.s"
-	C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\panda\CLionProjects\lab-04-boost-filesystem\sources\source.cpp -o CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.s
+	C:\Users\panda\mingw\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cprojects\lab-04-boost-filesystem\sources\source.cpp -o CMakeFiles\lab-04-boost-filesystem.dir\sources\source.cpp.s
 
 # Object files for target lab-04-boost-filesystem
 lab__04__boost__filesystem_OBJECTS = \
@@ -80,7 +80,7 @@ lab__04__boost__filesystem_EXTERNAL_OBJECTS =
 liblab-04-boost-filesystemd.a: CMakeFiles/lab-04-boost-filesystem.dir/sources/source.cpp.obj
 liblab-04-boost-filesystemd.a: CMakeFiles/lab-04-boost-filesystem.dir/build.make
 liblab-04-boost-filesystemd.a: CMakeFiles/lab-04-boost-filesystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblab-04-boost-filesystemd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cprojects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblab-04-boost-filesystemd.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\lab-04-boost-filesystem.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab-04-boost-filesystem.dir\link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/lab-04-boost-filesystem.dir/clean:
 .PHONY : CMakeFiles/lab-04-boost-filesystem.dir/clean
 
 CMakeFiles/lab-04-boost-filesystem.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\panda\CLionProjects\lab-04-boost-filesystem C:\Users\panda\CLionProjects\lab-04-boost-filesystem C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles\lab-04-boost-filesystem.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\cprojects\lab-04-boost-filesystem D:\cprojects\lab-04-boost-filesystem D:\cprojects\lab-04-boost-filesystem\cmake-build-debug D:\cprojects\lab-04-boost-filesystem\cmake-build-debug D:\cprojects\lab-04-boost-filesystem\cmake-build-debug\CMakeFiles\lab-04-boost-filesystem.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lab-04-boost-filesystem.dir/depend
 

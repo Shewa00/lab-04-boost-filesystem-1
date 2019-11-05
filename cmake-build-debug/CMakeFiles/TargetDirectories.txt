@@ -1,5 +1,5 @@
-C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/lab-04-boost-filesystem.dir
-C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/tests.dir
-C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/panda/CLionProjects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cprojects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/lab-04-boost-filesystem.dir
+D:/cprojects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/tests.dir
+D:/cprojects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/cprojects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/test.dir
+D:/cprojects/lab-04-boost-filesystem/cmake-build-debug/CMakeFiles/edit_cache.dir

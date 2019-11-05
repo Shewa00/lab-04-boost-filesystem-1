@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\_3rdParty\Hunter\toolchain
+CMAKE_SOURCE_DIR = D:\cprojects\lab-04-boost-filesystem\cmake-build-debug\_3rdParty\Hunter\toolchain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\panda\CLionProjects\lab-04-boost-filesystem\cmake-build-debug\_3rdParty\Hunter\toolchain\_builds
+CMAKE_BINARY_DIR = D:\cprojects\lab-04-boost-filesystem\cmake-build-debug\_3rdParty\Hunter\toolchain\_builds
 
 #=============================================================================
 # Special targets to cleanup operation of make.
